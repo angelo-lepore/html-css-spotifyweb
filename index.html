@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="it">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,28 +20,28 @@
                     </div>
                     <!-- MENU DI NAVIGAZIONE PRINCIPALE -->
                      <ul class="menu">
-                        <li style="color: #FFFFFF;"><img src="./img/home.svg">Home</li>
-                        <li><img src="./img/search.svg">Cerca</li>
-                        <li><img src="./img/libreria.svg">La tua libreria</li>
+                        <li class="menu-item active" style="color: #FFFFFF;"><img src="./img/home.svg">Home</li>
+                        <li class="clickable"><img src="./img/search.svg">Cerca</li>
+                        <li class="clickable"><img src="./img/libreria.svg">La tua libreria</li>
                     </ul>
                     <!-- SEZIONE PLAYLIST DELL'UTENTE -->
                      <div class="playlist">
                         <h4 style="color: #FFFFFF;">PLAYLIST</h4>
-                        <a><i class="fa-solid fa-square-plus"></i> Crea Playlist</a>
+                        <a class="clickable"><i class="fa-solid fa-square-plus"></i> Crea Playlist</a>
                      </div>
                     <!-- LISTA PLAYLIST DELL'UTENTE -->
                      <ul class="list">
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
-                        <li>Nome Playlist</li>
+                        <li class="clickable">Top 50 Italia</li>
+                        <li class="clickable">Brani che ti piacciono</li>
+                        <li class="clickable">New Music Friday Italia</li>
+                        <li class="clickable">Hot Hits Italia</li>
+                        <li class="clickable">Hit Italiane</li>
+                        <li class="clickable">Alta Rotazione</li>
+                        <li class="clickable">Canzoni da Cantare in Auto</li>
                      </ul>
                      <div class="nav-footer">
                         <!-- INSTALLAZIONE APP -->
-                         <div class="app">
+                         <div class="app clickable">
                             <img src="./img/download.svg">
                             <a>Installa app</a>
                         </div>
@@ -57,23 +57,95 @@
                 <div class="home">
                     <!-- BANNER UPGRADE -->
                     <div class="upgrade-bar">
-                        <a>EFFETTUA L'UPGRADE</a>
+                        <a class="clickable key">EFFETTUA L'UPGRADE</a>
                     </div>
+                    <!-- MAIN CONTENT -->
                     <div class="home-menu">
                       <ul>
-                        <li>IN EVIDENZA</li>
-                        <li>PODCAST</li>
-                        <li>CLASSIFICHE</li>
-                        <li>GENERI E MOOD</li>
-                        <li>NUOVE USCITE</li>
-                        <li>SCOPRI</li>
+                        <li class="home-menu-item active clickable">IN EVIDENZA</li>
+                        <li class="clickable">PODCAST</li>
+                        <li class="clickable">CLASSIFICHE</li>
+                        <li class="clickable">GENERI E MOOD</li>
+                        <li class="clickable">NUOVE USCITE</li>
+                        <li class="clickable">SCOPRI</li>
                       </ul>  
                     </div>
-                </div>
+                    <!-- RECENTLY PLAYED -->
+                    <div class="recently-played">
+                        <h3>Ascoltati di recente</h3>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img src="./img/metal_lifting.jpg">
+                            <div class="title">Heavy Metal</div>
+                            <div class="subtitle">Playlist</div>
+                        </div>
+                        <div class="col">
+                            <img src="./img/stranger.jpeg">
+                            <div class="title">Stranger Things, Vol.1 (A Netflix Original Series Soundtrack)</div>
+                            <div class="subtitle">Kyle Dixon & Micheal Stein</div>
+                        </div>
+                        <div class="col">
+                            <img src="./img/aquietplace.jpeg">
+                            <div class="title">A Quiet Place (Original Soundtrack Album)</div>
+                            <div class="subtitle">Marco Beltrami</div>
+                        </div>
+                        <div class="col">
+                            <img src="./img/split.jpeg">
+                            <div class="title">Split Original Motion Picture Soundtrack</div>
+                            <div class="subtitle">West Dylan Thordson</div>
+                        </div>
+                        <div class="col">
+                            <img src="./img/cure.jpeg">
+                            <div class="title">A Cure For Wellness (Original Soundtrack Album)</div>
+                            <div class="subtitle">Benjamin Wallfisch</div>
+                        </div>
+                        <div class="col">
+                            <img src="./img/sinister.jpeg">
+                            <div class="title">Sinister</div>
+                            <div class="subtitle">Christopher Young</div>
+                        </div>
+                    </div>
+                    <!-- CREATED FOR -->
+                    <div class="created-for">
+                        <h3>Creato per Angelo</h3>
+                    </div>
+                    <div class="created-for">
+                        <h5 class="subtitle">Più ascolti, più accurati saranno i suggerimemnti</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img src="./img/radar.jpeg">
+                            <div class="title">Release Radar</div>
+                        </div>
+                        <div class="col">
+                            <img src="./img/mixdaily.jpeg">
+                            <div class="title">Daily Mix 1</div>
+                        </div>
+
+                    </div>
+                    <!-- POPULAR ARTISTS -->
+                    <div class="popular-artists">
+                        <h3>Artisti più popolari</h3>
+                    </div>
+                    <div class="popular-artists">
+                        <h5 class="subtitle">Più ascolti, più accurati saranno i suggerimemnti</h5>
+                    </div>
+                    <div class="row">
+                        <div class="col">
+                            <img style="border-radius: 50%;" src="./img/youg.jpeg">
+                            <div class="title">Lana del Rey</div>
+                        </div>
+                        <div class="col">
+                            <img style="border-radius: 50%;" src="./img/einaudi.jpeg">
+                            <div class="title">Ludovico Einaudi</div>
+                        </div>
+
+                    </div>                                          
             </div>
+        </div>
             <!-- bottom -->
             <div style="color: #FFFFFF;" class="bottom">bottom</div>
-        </div>
     </main>
 </body>
 </html>
