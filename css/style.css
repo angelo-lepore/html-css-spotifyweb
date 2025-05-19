@@ -405,7 +405,7 @@ ul {
         width: 230px;
     }
     .home {
-        width: calc(100% - 200px);
+        width: calc(100% - 230px);
     }
     .row {
         grid-template-columns: repeat(4, 1fr);
